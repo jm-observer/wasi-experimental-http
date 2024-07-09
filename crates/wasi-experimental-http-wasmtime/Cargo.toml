@@ -21,6 +21,6 @@
     tokio = { version = "1", features = [ "full" ] }
     tracing = { version = "0.1", features = [ "log" ] }
     url = "2"
-    wasmtime = { version = "14.0.0", default-features = false, features = ["runtime"] }
-    wasmtime-wasi = { version = "14.0.0", default-features = false }
-    wasi-common = { version = "14.0.0", default-features = false }
+    wasmtime = { version = "=14.0.2", default-features = false, features = ["runtime"] }
+    wasmtime-wasi = { version = "=14.0.2", default-features = false }
+    wasi-common = { version = "=14.0.2", default-features = false }
